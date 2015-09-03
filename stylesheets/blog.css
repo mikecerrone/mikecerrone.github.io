@@ -7,13 +7,14 @@ padding-top: 90px;
 
 }
 .nav-bar {
-  padding: 10px;
+  padding-to: 35px;
+  display:inline-block;
 
 }
 
 .blog{
 width: 1000px;
-height: 1000px;
+height: 100px;
 font-family: Arial;
 color: blue;
 margin: 100px;
@@ -46,6 +47,9 @@ li {
     padding-right: 5em;
 }
 
-hr {
+.leveler {
+  height: 100px;
+  width: 500px;
+  display: inline-block;
 
-}
+}2
