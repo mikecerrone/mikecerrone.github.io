@@ -1,0 +1,51 @@
+.title {
+color:gray;
+margin-top: 80px;
+margin-bottom: 0px;
+padding-top: 90px;
+
+
+}
+.nav-bar {
+  padding: 10px;
+
+}
+
+.blog{
+width: 1000px;
+height: 1000px;
+font-family: Arial;
+color: blue;
+margin: 100px;
+text-decoration: none;
+}
+
+.posts{
+  font-size: 2em;
+  font-weight: bolder;
+  color:  gray;
+  font-family:Arial;
+  margin-bottom: 10px;
+  position:inline;
+
+}
+a:hover{
+  color:#FFAECE;
+  text-decoration: none;
+}
+
+ul {
+    float:left;
+    clear:right;
+    padding:5px;
+
+}
+li {
+    float:left;
+    clear:left;
+    padding-right: 5em;
+}
+
+hr {
+
+}
