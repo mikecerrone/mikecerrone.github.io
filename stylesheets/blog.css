@@ -53,25 +53,33 @@ li {
   display: inline-block;
  }
 
- #part1 {
+#part1 {
 display: block;
 margin-bottom: 20px;
 margin-left: 50px;
 padding-left: 20px;
 padding-bottom: 95px;
+
 }
- #part1.5 {
-display: block;
+
+#part1.5 {
+display: absolute;
 margin-bottom:200px;
-margin-left: 50px;
-padding-left: 20px;
+margin-left: 100px;
+padding-left: 60px;
+width:700px;
 
  }
 
-  #part2 {
+.part2 {
 display: inline-block;
 margin-top: 10px;
 margin-left: 50px;
 padding-left: 20px;
 width:700px;
+}
 
+.bold{
+font-weight: bold;
+
+}
