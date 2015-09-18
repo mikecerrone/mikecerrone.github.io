@@ -1,0 +1,84 @@
+<!--enumberable-methods -->
+<!Doctype html>
+<html>
+<head>
+<title>Week Blogs</title>
+ <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+</head>
+
+
+
+<body>
+  <!--Logo-->
+  <img class= "hero-icon"src=http://www.getranked.com.my/wp-content/uploads/2013/01/Sprout_Icon_Clear_BG_Large.png>
+  <font><a class="title" href=http://mikecerrone.github.io/blog-index.html> Mike's Blog  </a></font>
+
+  <!--Nav-bar-->
+  <div class ="nav-bar">
+
+  <font> <a class="header"  href="http://mikecerrone.github.io/">Home</a></font>
+  <font><a class="header"  href="#">About</a></font>
+  <font><a class="header"  href="#">Contact</a></font>
+
+  </div>
+  <!--nav-bar-end-->
+<!--BLOG-POST START-->
+
+<hr>
+
+<h1> Enumeration, what is it good for? </h1>
+
+<h2>A quick guide to enumeration ruby methods </h2>
+
+<h3>September 18th 2015</h3>
+
+
+<div class="part2">
+<p> </p>
+
+
+<img src= http://4.bp.blogspot.com/_oVLFPnxqQfI/RrCtst0PLwI/AAAAAAAAAC4/Jp-CBm9vuj0/s320/ruby.jpg>
+</div>
+<hr>
+<div class="part2">
+ <h3>First off, what is enumeration:</h3>
+  <p>An enumeration is a complete, ordered listing of all the items in a collection. The term is commonly used in mathematics and computer science to refer to a listing of all of the elements of a set.</p>
+
+
+</div>
+<hr>
+<div class="part2">
+<h3>Great, how can we use it?</h3>
+ <p>Well there might be a better way to iterate through an array than the for loops you have been using! Enumerable's biggest advantage is over the for loop is clarity. Using Enumerable's looping "power tools" like any?, All? and others we will define later help make your code read semantically. In addition to your code reading better these methods can get the job done quicker and more efficiently than you thought possible.</p>
+
+</div>
+
+
+<hr>
+
+<div class="part2">
+<h3>Lets take a look at 2 enumeration methods: </h3>
+
+<li>all? [{ |obj| block } ] → true or false
+All? asses each element of the collection to the given block. The method returns true if the block never returns false or nil. If the block is not given, Ruby adds an implicit block of{ |obj| obj } which will cause all? to return true when none of the collection members are false or nil.</li>
+
+<li>any? [{ |obj| block }] → true or false
+Passes each element of the collection to the given block. The method returns true if the block ever returns a value other than false or nil. If the block is not given, Ruby adds an implicit block of { |obj| obj } that will cause any? to return true if at least one of the collection members is not false or nil.</li>
+
+</div>
+
+<hr>
+</body>
+
+
+<div class= "footer-bar">
+<font class= "footer" ><a href= https://www.linkedin.com/in/mikecerrone> <img class="icon" src=https://billing.cemc.com/oscp/Portals/0/Linkedin%20icon.png></a> </a></font>
+<font class= "footer" ><a href= https://github.com/mikecerrone><img class="icon" src=http://uxrepo.com/static/icon-sets/zocial/svg/github-circled.svg></a> </a></font></a></font>
+<font class= "footer" ><a href= https://twitter.com/mikecerrone><img class="icon" src=http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png></a> </a></font></a></font>
+<font class= "footer" ><a href= https://www.facebook.com/mikecerrone><img class="icon" src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png></a> </a></font></a></font>
+</div>
+
+
+
+</html>
