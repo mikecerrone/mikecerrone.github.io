@@ -1,0 +1,107 @@
+<!--enumberable-methods -->
+<!Doctype html>
+<html>
+<head>
+<title>Week Blogs</title>
+ <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+ <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+</head>
+
+
+
+<body>
+  <!--Logo-->
+  <img class= "hero-icon"src=http://www.getranked.com.my/wp-content/uploads/2013/01/Sprout_Icon_Clear_BG_Large.png>
+  <font><a class="title" href=http://mikecerrone.github.io/blog-index.html> Mike's Blog  </a></font>
+
+  <!--Nav-bar-->
+  <div class ="nav-bar">
+
+  <font> <a class="header"  href="http://mikecerrone.github.io/">Home</a></font>
+  <font><a class="header"  href="#">About</a></font>
+  <font><a class="header"  href="#">Contact</a></font>
+
+  </div>
+  <!--nav-bar-end-->
+<!--BLOG-POST START-->
+
+<hr>
+
+<h1> ("Java" + "Script") = javaScript </h1>
+
+<h2>A quick guide to Javascript Objects </h2>
+
+<h3>September 29th 2015</h3>
+
+
+<div class="part2">
+<p> </p>
+
+
+<img src= "https://cdn.codementor.io/assets/topic/category_header/ruby-on-rails.png">
+</div>
+<hr>
+<div class="part2">
+ <h3>What is an Instance of a class?</h3>
+  <p>Before creating an example class it is important to understand what an instance of a class is. The example we will use in this post is the class: Dog. An instance of Dog is a " Male, German Shepard that is 7 years old" To clarify " the German Shepard" is a specific instance of the class Dog.</p>
+
+
+</div>
+<hr>
+<div class="part2">
+<h3>What is an instance variable?</h3>
+ <p>In our example, the instance of Dog is a "German Shepard." There are many instances (or breeds) of a Dogs in the real world (puddle, pug, lab etc..) so we can create instance variables. These variables are used specifically within the class. To add to our example, our Dog which is a "German Shepard" named "Ronald" is a "Male" and "7 years old" Each of these could be the instance variables @breed, @name @sex, @age respectively. We create instance variables with an @ in front and can use them within all methods in the class.</p>
+
+</div>
+
+
+<hr>
+
+<div class="part2">
+<h3>Lets take a look at an example: </h3>
+
+<p>Class Dog</p>
+<p>def initialize(breed, name, sex, age)</p>
+<p>@breed = breed</p>
+<p>@name = name</p>
+<p>@sex = sex</p>
+<p>@age = age</p>
+<p>end</p>
+<p># the method initialize is a special instance method that kicks off automatically the as soon as a new instance is created. So in this example it would define our instance methods. </p>
+<p></p>
+<p>def bark</p>
+<p> puts "Rooooof! Rooooof!"</p>
+<p>end</p>
+<p># this is an instance method. We can call this "custom made" method on the instance of Dog. So if our instance was "my_pet", then the calling of the method would look like this: "my_pet.bark"</p>
+
+<p>def show_collar</p>
+<p> puts " Hello, my name is  #{@name} I am a #{@sex}, #{@breed}. I am #{@age} years old, not that anyone is counting!"</p>
+<p>end</p>
+<p># with this instance method we are using the pre-defined instance variable to puts what the collar of our Dog would look like.</p>
+<p>end</p>
+<p>--</p>
+<p>my_pet = Dog.new("German Shepard", "Ronald", "Male", 7)</p>
+<p># here we are actually creating an instance of our Dog. Notice it needs info because of the initialize method.</p>
+<p>--</p>
+<p>Now we will test out some of our instance methods!
+<p></p>
+<p>my_pet.bark => "Rooooof! Rooooof!"</p>
+<p></p>
+<p>my_pet.show_collar => "Hello, my name is  Ronald I am a Male , "German Shepard". I am 7 years old, not that anyone is counting!"</p>
+
+</div>
+
+<hr>
+</body>
+
+
+<div class= "footer-bar">
+<font class= "footer" ><a href= https://www.linkedin.com/in/mikecerrone> <img class="icon" src=https://billing.cemc.com/oscp/Portals/0/Linkedin%20icon.png></a> </a></font>
+<font class= "footer" ><a href= https://github.com/mikecerrone><img class="icon" src=http://uxrepo.com/static/icon-sets/zocial/svg/github-circled.svg></a> </a></font></a></font>
+<font class= "footer" ><a href= https://twitter.com/mikecerrone><img class="icon" src=http://cdn.business2community.com/wp-content/uploads/2015/07/Twitter-icon.png.png></a> </a></font></a></font>
+<font class= "footer" ><a href= https://www.facebook.com/mikecerrone><img class="icon" src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png></a> </a></font></a></font>
+</div>
+
+
+
+</html>
